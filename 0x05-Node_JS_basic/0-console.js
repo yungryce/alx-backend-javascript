@@ -4,8 +4,9 @@
  * @author Bezaleel Olakunori <https://github.com/B3zaleel>
  */
 
+
 function displayMessage(message) {
-    console.log(message);
+  console.log(message);
 }
 
 module.exports = displayMessage;
