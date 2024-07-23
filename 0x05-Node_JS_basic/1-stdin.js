@@ -10,10 +10,7 @@ if (process.stdin.isTTY) {
     process.stdout.write(`Your name is: ${data.toString()}`);
     process.exit();
   });
+  process.on('exit', () => {
+    process.stdout.write('This important software is now closing\n');
+  });
 }
-
-// Ensure this listener is set up regardless of TTY or not
-process.on('exit', () => {
-  process.stdout.write('This important software is now closing\n');
-});
-
