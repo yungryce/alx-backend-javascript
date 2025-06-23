@@ -1,0 +1,72 @@
+{
+  "project_identity": {
+    "name": "alx-backend-javascript-0x05-Node_JS_basic",
+    "type": "educational",
+    "scope": "Node.js basics module",
+    "is_independent": true,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Module introducing Node.js, its runtime, core modules, and basic server-side JavaScript programming."
+  },
+  "tech_stack": {
+    "primary": ["node.js", "javascript"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Node.js runtime",
+      "Core modules",
+      "File system operations",
+      "HTTP server basics",
+      "Asynchronous programming"
+    ],
+    "domain": [
+      "node.js",
+      "javascript",
+      "server-side programming"
+    ]
+  },
+  "components": {},
+  "progression": {},
+  "topics": [
+    "node.js",
+    "core-modules",
+    "file-system",
+    "http-server",
+    "async-programming"
+  ],
+  "skillLevel": "beginner",
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Running JavaScript in Node.js",
+      "Using Node.js core modules",
+      "Building basic HTTP servers"
+    ],
+    "softSkills": [
+      "Problem-solving",
+      "Code organization",
+      "Attention to detail"
+    ]
+  },
+  "prerequisites": [],
+  "associatedProjects": {
+    "previous": "0x04-TypeScript",
+    "next": "",
+    "related": []
+  },
+  "files": {
+    "authors_file": "AUTHORS.md",
+    "license_file": "LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": "package.json"
+  },
+  "metadata": {
+    "created_date": "2024-01-01",
+    "last_updated": "2024-01-15",
+    "version": "1.0.0",
+    "maintainer": "ALX Software Engineering Program",
+    "tags": ["nodejs", "javascript", "backend", "server", "api"]
+  }
+}

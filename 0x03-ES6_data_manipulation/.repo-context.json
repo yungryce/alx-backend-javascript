@@ -1,0 +1,72 @@
+{
+  "project_identity": {
+    "name": "alx-backend-javascript-0x03-ES6_data_manipulation",
+    "type": "educational",
+    "scope": "JavaScript ES6 Data Manipulation module",
+    "is_independent": true,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Module covering ES6 data manipulation techniques, including array methods, object manipulation, and functional programming patterns."
+  },
+  "tech_stack": {
+    "primary": ["javascript", "node.js"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Array methods (map, filter, reduce)",
+      "Object manipulation",
+      "Functional programming",
+      "Spread/rest operators",
+      "Immutability"
+    ],
+    "domain": [
+      "javascript",
+      "es6",
+      "data manipulation"
+    ]
+  },
+  "components": {},
+  "progression": {},
+  "topics": [
+    "es6",
+    "data-manipulation",
+    "arrays",
+    "objects",
+    "functional-programming"
+  ],
+  "skillLevel": "beginner",
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Using ES6 array and object methods",
+      "Applying functional programming patterns",
+      "Writing clean and efficient data manipulation code"
+    ],
+    "softSkills": [
+      "Problem-solving",
+      "Code organization",
+      "Attention to detail"
+    ]
+  },
+  "prerequisites": [],
+  "associatedProjects": {
+    "previous": "0x02-ES6_classes",
+    "next": "0x04-TypeScript",
+    "related": []
+  },
+  "files": {
+    "authors_file": "AUTHORS.md",
+    "license_file": "LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": "package.json"
+  },
+  "metadata": {
+    "created_date": "2024-01-01",
+    "last_updated": "2024-01-15",
+    "version": "1.0.0",
+    "maintainer": "ALX Software Engineering Program",
+    "tags": ["javascript", "es6", "data-manipulation", "functional-programming", "backend"]
+  }
+}

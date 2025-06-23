@@ -1,0 +1,65 @@
+{
+  "project_identity": {
+    "name": "alx-backend-javascript-0x01-ES6_promise",
+    "type": "educational",
+    "scope": "JavaScript ES6 Promises module",
+    "is_independent": true,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Module covering ES6 Promises, asynchronous programming patterns, and best practices for handling async operations in JavaScript."
+  },
+  "tech_stack": {
+    "primary": ["javascript", "node.js"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "Promises",
+      "Async/await",
+      "Error handling in async code",
+      "Chaining promises",
+      "Promise combinators (all, race, etc.)"
+    ],
+    "domain": [
+      "javascript",
+      "es6",
+      "asynchronous programming"
+    ]
+  },
+  "components": {},
+  "progression": {},
+  "topics": [
+    "es6",
+    "promises",
+    "async-await",
+    "asynchronous-programming",
+    "error-handling"
+  ],
+  "skillLevel": "beginner",
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Understanding and using Promises",
+      "Writing async JavaScript code",
+      "Handling errors in async flows"
+    ],
+    "softSkills": [
+      "Problem-solving",
+      "Code organization",
+      "Attention to detail"
+    ]
+  },
+  "prerequisites": [],
+  "associatedProjects": {
+    "previous": "0x00-ES6_basic",
+    "next": "0x02-ES6_classes",
+    "related": []
+  },
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
+}

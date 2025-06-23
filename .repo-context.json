@@ -1,0 +1,296 @@
+{
+  "project_identity": {
+    "name": "alx-backend-javascript",
+    "type": "educational",
+    "scope": "backend",
+    "is_independent": true,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Comprehensive ALX backend JavaScript curriculum covering modern ES6+ features, asynchronous programming, TypeScript integration, and Node.js backend development. This repository provides a complete learning path from JavaScript fundamentals to production-ready backend applications.",
+    "curriculum_stage": "specialization"
+  },
+  "tech_stack": {
+    "primary": [
+      "JavaScript ES6+",
+      "Node.js",
+      "TypeScript"
+    ],
+    "secondary": [
+      "npm",
+      "Babel",
+      "ESLint"
+    ],
+    "key_libraries": [
+      "fs",
+      "path",
+      "http",
+      "express",
+      "jest"
+    ],
+    "development_tools": [
+      "npm",
+      "babel",
+      "webpack",
+      "eslint"
+    ],
+    "testing_frameworks": [
+      "Jest",
+      "Mocha",
+      "Supertest"
+    ]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Modern JavaScript ES6+ syntax and features",
+      "Asynchronous programming with Promises and async/await",
+      "Object-oriented programming with ES6 classes",
+      "Functional programming with array methods",
+      "TypeScript static typing and interfaces",
+      "Node.js backend development and APIs",
+      "HTTP server creation and request handling",
+      "File system operations and stream processing"
+    ],
+    "domain": [
+      "Backend Engineering",
+      "JavaScript Development",
+      "Node.js Development",
+      "TypeScript Programming",
+      "Asynchronous Programming",
+      "API Development"
+    ],
+    "professional": [
+      "Code organization and modularity",
+      "Testing methodologies and best practices",
+      "Performance optimization techniques",
+      "Error handling and debugging"
+    ],
+    "competency_level": "intermediate"
+  },
+  "components": {
+    "es6_basics": {
+      "type": "module",
+      "path": "./0x00-ES6_basic",
+      "description": "Modern JavaScript ES6+ fundamentals and syntax",
+      "dependencies": ["babel"],
+      "interfaces": ["arrow_functions", "template_literals", "destructuring", "rest_spread"]
+    },
+    "promises": {
+      "type": "module",
+      "path": "./0x01-ES6_promise",
+      "description": "Asynchronous programming with Promises and async/await",
+      "dependencies": ["es6_basics"],
+      "interfaces": ["promise_creation", "promise_chaining", "async_await", "error_handling"]
+    },
+    "classes": {
+      "type": "module",
+      "path": "./0x02-ES6_classes",
+      "description": "Object-oriented programming with ES6 classes",
+      "dependencies": ["es6_basics"],
+      "interfaces": ["class_definition", "inheritance", "static_methods", "encapsulation"]
+    },
+    "data_manipulation": {
+      "type": "module",
+      "path": "./0x03-ES6_data_manipulation",
+      "description": "Advanced data processing with functional programming",
+      "dependencies": ["es6_basics", "promises"],
+      "interfaces": ["array_methods", "set_map", "data_transformation", "functional_patterns"]
+    },
+    "typescript": {
+      "type": "module",
+      "path": "./0x04-TypeScript",
+      "description": "Type-safe JavaScript development with TypeScript",
+      "dependencies": ["es6_basics", "classes"],
+      "interfaces": ["type_definitions", "interfaces", "generics", "compilation"]
+    },
+    "nodejs": {
+      "type": "module",
+      "path": "./0x05-Node_JS_basic",
+      "description": "Backend development with Node.js runtime",
+      "dependencies": ["promises", "typescript"],
+      "interfaces": ["http_server", "file_system", "process_management", "middleware"]
+    }
+  },
+  "progression": {
+    "stage_1": {
+      "description": "Modern JavaScript foundations",
+      "tech_stack": ["JavaScript ES6+", "Babel"],
+      "features": ["Arrow functions", "Template literals", "Destructuring", "Rest/Spread"],
+      "skills": ["ES6 syntax", "Modern JavaScript patterns"],
+      "duration": "1-2 weeks"
+    },
+    "stage_2": {
+      "description": "Asynchronous programming mastery",
+      "tech_stack": ["JavaScript", "Promises"],
+      "features": ["Promise creation", "Async/await", "Error handling", "Promise composition"],
+      "skills": ["Asynchronous programming", "Error management"],
+      "duration": "1-2 weeks"
+    },
+    "stage_3": {
+      "description": "Object-oriented design",
+      "tech_stack": ["JavaScript", "ES6 Classes"],
+      "features": ["Class definitions", "Inheritance", "Static methods", "Encapsulation"],
+      "skills": ["OOP principles", "Class-based design"],
+      "duration": "1-2 weeks"
+    },
+    "stage_4": {
+      "description": "Functional programming and data manipulation",
+      "tech_stack": ["JavaScript", "Functional patterns"],
+      "features": ["Array methods", "Set/Map", "Data transformation", "Functional composition"],
+      "skills": ["Functional programming", "Data processing"],
+      "duration": "1-2 weeks"
+    },
+    "stage_5": {
+      "description": "Type-safe development",
+      "tech_stack": ["TypeScript", "Type definitions"],
+      "features": ["Static typing", "Interfaces", "Generics", "Compilation"],
+      "skills": ["Type safety", "Static analysis"],
+      "duration": "2-3 weeks"
+    },
+    "stage_6": {
+      "description": "Backend development with Node.js",
+      "tech_stack": ["Node.js", "Express"],
+      "features": ["HTTP servers", "File systems", "Process management", "APIs"],
+      "skills": ["Backend development", "Server programming"],
+      "duration": "2-3 weeks"
+    }
+  },
+  "topics": [
+    "Modern JavaScript",
+    "ES6+ Features",
+    "Asynchronous Programming",
+    "Object-Oriented Programming",
+    "Functional Programming",
+    "TypeScript",
+    "Node.js",
+    "Backend Development",
+    "API Development"
+  ],
+  "skillLevel": "intermediate",
+  "projectStructure": {
+    "architecture_pattern": "modular",
+    "directory_structure": {
+      "0x00-ES6_basic": "Modern JavaScript ES6+ fundamentals",
+      "0x01-ES6_promise": "Asynchronous programming with Promises",
+      "0x02-ES6_classes": "Object-oriented programming with classes",
+      "0x03-ES6_data_manipulation": "Functional programming and data processing",
+      "0x04-TypeScript": "Type-safe JavaScript development",
+      "0x05-Node_JS_basic": "Backend development with Node.js"
+    },
+    "key_files": [
+      {"path": "README.md", "purpose": "Repository overview and learning path"},
+      {"path": "SKILLS-INDEX.md", "purpose": "Comprehensive skills catalog"},
+      {"path": "ARCHITECTURE.md", "purpose": "System architecture documentation"},
+      {"path": "AUTHORS", "purpose": "Contributor information"}
+    ]
+  },
+  "outcomes": {
+    "technicalSkills": [
+      "Modern JavaScript ES6+ development",
+      "Asynchronous programming and Promise handling",
+      "Object-oriented design with ES6 classes",
+      "Functional programming paradigms",
+      "TypeScript static typing and interfaces",
+      "Node.js backend development",
+      "RESTful API design and implementation",
+      "Server-side JavaScript programming"
+    ],
+    "softSkills": [
+      "Code organization and modularity",
+      "Testing and quality assurance",
+      "Performance optimization thinking",
+      "Error handling and debugging"
+    ],
+    "career_preparation": [
+      "Backend JavaScript Developer",
+      "Node.js Developer",
+      "Full-Stack Developer",
+      "TypeScript Developer",
+      "API Developer"
+    ],
+    "certifications": [
+      "JavaScript proficiency",
+      "Node.js backend development",
+      "TypeScript expertise"
+    ]
+  },
+  "prerequisites": [
+    "Basic programming fundamentals",
+    "Introduction to JavaScript",
+    "Understanding of web technologies",
+    "Command line proficiency"
+  ],
+  "associatedProjects": {
+    "previous": "alx-higher_level_programming",
+    "next": "alx-backend",
+    "related": [
+      "alx-backend-python",
+      "alx-backend-user-data"
+    ],
+    "dependencies": [
+      "JavaScript fundamentals",
+      "Programming basics"
+    ],
+    "enables": [
+      "Advanced backend specialization",
+      "Full-stack development",
+      "API architecture"
+    ]
+  },
+  "files": {
+    "authors_file": "./AUTHORS",
+    "license_file": "./LICENSE.txt",
+    "readme_file": "./README.md",
+    "requirements_file": "./package.json",
+    "documentation_files": [
+      "./SKILLS-INDEX.md",
+      "./ARCHITECTURE.md"
+    ],
+    "test_files": [
+      "./**/test/*.js",
+      "./**/*test.js"
+    ]
+  },
+  "assessment": {
+    "evaluation_criteria": [
+      "Code functionality and correctness",
+      "Modern JavaScript best practices",
+      "Asynchronous programming implementation",
+      "TypeScript type safety",
+      "Node.js backend proficiency"
+    ],
+    "deliverables": [
+      "ES6+ feature implementations",
+      "Promise-based asynchronous solutions",
+      "Object-oriented class designs",
+      "Functional programming examples",
+      "TypeScript type definitions",
+      "Node.js backend applications"
+    ],
+    "grading_rubric": {
+      "functionality": "35%",
+      "code_quality": "25%",
+      "best_practices": "20%",
+      "documentation": "20%"
+    },
+    "peer_review": false
+  },
+  "metadata": {
+    "created_date": "2024-01-15",
+    "last_updated": "2025-06-22",
+    "contributors": [
+      "Chigbu Joshua"
+    ],
+    "tags": [
+      "javascript",
+      "nodejs",
+      "typescript",
+      "backend",
+      "es6",
+      "async",
+      "oop",
+      "functional"
+    ],
+    "difficulty_rating": 6,
+    "estimated_hours": 200
+  }
+}

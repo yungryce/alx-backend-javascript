@@ -1,0 +1,72 @@
+{
+  "project_identity": {
+    "name": "alx-backend-javascript-0x04-TypeScript",
+    "type": "educational",
+    "scope": "TypeScript basics module",
+    "is_independent": true,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Module introducing TypeScript, its syntax, type system, and integration with JavaScript for safer and more maintainable code."
+  },
+  "tech_stack": {
+    "primary": ["typescript", "javascript", "node.js"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "TypeScript syntax",
+      "Type annotations",
+      "Interfaces and types",
+      "Type inference",
+      "TypeScript tooling"
+    ],
+    "domain": [
+      "typescript",
+      "javascript",
+      "type safety"
+    ]
+  },
+  "components": {},
+  "progression": {},
+  "topics": [
+    "typescript",
+    "type-annotations",
+    "interfaces",
+    "type-inference",
+    "tooling"
+  ],
+  "skillLevel": "beginner",
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Writing TypeScript code",
+      "Understanding type systems",
+      "Integrating TypeScript with JavaScript"
+    ],
+    "softSkills": [
+      "Problem-solving",
+      "Code organization",
+      "Attention to detail"
+    ]
+  },
+  "prerequisites": [],
+  "associatedProjects": {
+    "previous": "0x03-ES6_data_manipulation",
+    "next": "0x05-Node_JS_basic",
+    "related": []
+  },
+  "files": {
+    "authors_file": "AUTHORS.md",
+    "license_file": "LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": "package.json"
+  },
+  "metadata": {
+    "created_date": "2024-01-01",
+    "last_updated": "2024-01-15",
+    "version": "1.0.0",
+    "maintainer": "ALX Software Engineering Program",
+    "tags": ["typescript", "javascript", "type-safety", "backend", "enterprise"]
+  }
+}

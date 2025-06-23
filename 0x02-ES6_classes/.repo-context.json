@@ -1,0 +1,65 @@
+{
+  "project_identity": {
+    "name": "alx-backend-javascript-0x02-ES6_classes",
+    "type": "educational",
+    "scope": "JavaScript ES6 Classes module",
+    "is_independent": true,
+    "version": "1.0.0",
+    "related_versions": [],
+    "description": "Module covering ES6 Classes, object-oriented programming in JavaScript, inheritance, and class-based design patterns."
+  },
+  "tech_stack": {
+    "primary": ["javascript", "node.js"],
+    "secondary": [],
+    "key_libraries": []
+  },
+  "skill_manifest": {
+    "technical": [
+      "ES6 Classes",
+      "Inheritance",
+      "Constructor functions",
+      "Static methods",
+      "Class fields"
+    ],
+    "domain": [
+      "javascript",
+      "es6",
+      "object-oriented programming"
+    ]
+  },
+  "components": {},
+  "progression": {},
+  "topics": [
+    "es6",
+    "classes",
+    "inheritance",
+    "oop",
+    "constructor-functions"
+  ],
+  "skillLevel": "beginner",
+  "projectStructure": {},
+  "outcomes": {
+    "technicalSkills": [
+      "Defining and using ES6 classes",
+      "Implementing inheritance in JavaScript",
+      "Understanding class-based design patterns"
+    ],
+    "softSkills": [
+      "Problem-solving",
+      "Code organization",
+      "Attention to detail"
+    ]
+  },
+  "prerequisites": [],
+  "associatedProjects": {
+    "previous": "0x01-ES6_promise",
+    "next": "0x03-ES6_data_manipulation",
+    "related": []
+  },
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "",
+    "requirements_file": ""
+  }
+}
